@@ -1,4 +1,5 @@
 # Oi, meu nome é Ana Carolina Oliveira de Andrade! 
+![Foto Ana](img/foto.jpg)
 ## Sejam bem vindos!
 
 ### Sobre mim:
