@@ -2,10 +2,10 @@
 
 ## Sobre mim:
         ![foto Ana](img/foto.jpg)
-*_Localização_: Embu Guaçu - São Paulo
-*_Instituição de Ensino_: Universidade Virtual do Estado de São Paulo 
-*_Curso_: Ciência de Dados
-*_Semestre Atual_: Segundo semestre 
-*_Experiências_: Apenas da minha primeira formação (fisioterapia)
-*__Conhecimentos: HTML, CSS e Inglês Avançado
-*_Hobbies_: cozinhar, assistir séries e filmes, musculação e treinamento funcional.
+*__Localização__: Embu Guaçu - São Paulo
+*__Instituição de Ensino__: Universidade Virtual do Estado de São Paulo 
+*__Curso__: Ciência de Dados
+*__Semestre Atual__: Segundo semestre 
+*__Experiências__: Apenas da minha primeira formação (fisioterapia)
+*__Conhecimentos__: HTML, CSS e Inglês Avançado
+*__Hobbies__: cozinhar, assistir séries e filmes, musculação e treinamento funcional.
