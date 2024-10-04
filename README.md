@@ -1,6 +1,7 @@
-# Olá, sou a Ana Carolina Oliveira de Andrade! :)
+# Oi, meu nome é Ana Carolina Oliveira de Andrade! 
+## Sejam bem vindos!
 
-## Sobre mim:
+### Sobre mim:
         
 * 📍 __Localização__: Embu Guaçu - São Paulo, Brasil
 * 🏛️ __Instituição de Ensino__: Universidade Virtual do Estado de São Paulo 
