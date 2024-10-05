@@ -2,6 +2,9 @@
 ![Foto Ana](img/foto.jpg)
 ## Sejam bem vindos!
 
+![foto jpg (2) (1)](https://github.com/user-attachments/assets/2add5757-2438-4796-bc40-4de850207e75)
+
+
 ### Sobre mim:
         
 * 📍 __Localização__: Embu Guaçu - São Paulo, Brasil
