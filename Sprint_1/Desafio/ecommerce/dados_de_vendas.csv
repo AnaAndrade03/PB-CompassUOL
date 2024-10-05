@@ -1,0 +1,34 @@
+id,produto,quantidade,preço,data
+1,barra de chocolate,20,5.00,01/08/2023
+2,suco de laranja,15,3.00,02/08/2023
+3,arroz integral,10,10.00,03/08/2023
+4,feijão preto,12,8.00,04/08/2023
+5,macarrão,25,2.50,05/08/2023
+6,óleo de cozinha,5,20.00,06/08/2023
+7,sal,30,1.00,07/08/2023
+8,pimenta do reino,18,4.00,08/08/2023
+9,temperos variados,12,15.00,09/08/2023
+10,leite em pó,8,12.00,10/08/2023
+11,queijo mussarela,6,25.00,11/08/2023
+12,pão integral,20,3.50,12/08/2023
+13,ovos,30,2.00,13/08/2023
+14,manteiga,5,15.00,14/08/2023
+15,geléia de frutas,7,10.00,15/08/2023
+16,banana,50,0.30,16/08/2023
+17,maçã,40,0.50,17/08/2023
+18,laranja,35,0.40,18/08/2023
+19,uva,25,0.60,19/08/2023
+20,batata,30,0.80,20/08/2023
+21,cenoura,20,0.50,21/08/2023
+22,couve,15,1.00,22/08/2023
+23,pimenta biquinho,8,7.00,23/08/2023
+24,alho,10,5.00,24/08/2023
+25,cebola,12,3.00,25/08/2023
+26,suco de maçã,15,4.00,26/08/2023
+27,água mineral,20,1.50,27/08/2023
+28,cerveja artesanal,10,15.00,28/08/2023
+29,vinho tinto,5,50.00,29/08/2023
+30,champanhe,3,120.00,30/08/2023
+31,condicionador de cabelo,7,25.00,31/08/2023
+32,shampoo,8,30.00,01/09/2023
+33,creme de barbear,6,20.00,02/09/2023
