@@ -1,0 +1,16 @@
+Data do sistema operacional: 2024/10/02 15:27
+Data do primeiro registro de vendas: 01/08/2023
+Data do ultimo registro de venda: 02/09/2023
+Quantidade total de itens diferentes vendidos: 33
+
+Primeiras dez linhas do arquivo:
+id,produto,quantidade,preço,data
+1,barra de chocolate,20,5.00,01/08/2023
+2,suco de laranja,15,3.00,02/08/2023
+3,arroz integral,10,10.00,03/08/2023
+4,feijão preto,12,8.00,04/08/2023
+5,macarrão,25,2.50,05/08/2023
+6,óleo de cozinha,5,20.00,06/08/2023
+7,sal,30,1.00,07/08/2023
+8,pimenta do reino,18,4.00,08/08/2023
+9,temperos variados,12,15.00,09/08/2023

@@ -1,0 +1,16 @@
+Data do sistema operacional: 2024/10/01 15:27
+Data do primeiro registro de vendas: 01/04/2023
+Data do ultimo registro de venda: 30/04/2023
+Quantidade total de itens diferentes vendidos: 30
+
+Primeiras dez linhas do arquivo:
+id,produto,quantidade,preço,data
+1,cafeteira elétrica,2,150.00,01/04/2023
+2,liquidificador,5,120.00,02/04/2023
+3,air fryer,3,300.00,03/04/2023
+4,panela de pressão,8,90.00,04/04/2023
+5,roupeiro,2,600.00,05/04/2023
+6,mesa de escritório,4,450.00,06/04/2023
+7,cadeira ergonômica,6,350.00,07/04/2023
+8,estante,3,200.00,08/04/2023
+9,sofá 2 lugares,1,1200.00,09/04/2023
