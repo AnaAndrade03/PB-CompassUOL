@@ -13,4 +13,4 @@
 * 🎓 __Semestre Atual__: Terceiro semestre 
 * 👩‍💼 __Experiências__: Apenas da minha primeira formação (fisioterapia)
 * 💡 __Conhecimentos__: HTML, CSS e Inglês Avançado
-* 😃 __Hobbies__: cozinhar, assistir séries e filmes, musculação e treinamento funcional.
+* 😃 __Hobbies__: cozinhar, assistir séries e filmes, musculação e treino funcional.
