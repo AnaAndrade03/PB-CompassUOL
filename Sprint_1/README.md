@@ -2,7 +2,7 @@
 
 ## Resumo da Sprint 
 
-Na sprint 1 adquiri conhecimentos sobre Linux, Git e Github.
+Na sprint 1 adquiri conhecimentos sobre Linux, Git, Github e Markdown.
 
 Primeiramente sobre Linux aprendi sobre comandos básicos do sistema, gerenciamentos de arquivos, diretórios, aplicativos, editores de texto e muitas outras funcionalidades do sistema. 
 
