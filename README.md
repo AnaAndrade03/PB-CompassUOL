@@ -2,7 +2,7 @@
 
 ## Sejam bem vindos! :)
 
-![foto rosto](../foto%20rosto.jpg)
+![foto rosto](..)
 
 
 ### Sobre mim:

@@ -2,6 +2,8 @@
 #### (criando diretórios, movendo e criando arquivos)
   Primeiramente criei o diretório solicitado, movi o arquivo dados de vendas para dentro deste dirório e logo após criei o arquivo executável.
 
+![foto rosto](../Evidências/2.png)
+
 ### 2. Segunda etapa 
 #### (estruturação do primeiro script em bash)
   Depois disso já dentro do arquivo criei um scrip em bash, lá usei alguns comandos para criação de diretórios, copia e mudança de nomes de arquivos, então fiz a criação do do relatório.txt onde terá algumas informações e para estas usei comandos especificos que as representasse, após isso fiz um zip em um arquivo e deletei outros solicitados.
