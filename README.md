@@ -16,3 +16,4 @@
 * 😃 __Hobbies__: cozinhar, assistir séries e filmes, musculação e treino funcional.
 
   1. [Sprint 1](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_1)
+  2. [Sprint 2](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2)
