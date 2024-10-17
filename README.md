@@ -2,7 +2,7 @@
 
 ## Sejam bem vindos! :)
 
-![foto jpg (2) (1) (1)](https://github.com/user-attachments/assets/3b892209-8bc7-46f2-954f-ca55994b29a9)
+![foto jpg (2) (1) (1) (4)](https://github.com/user-attachments/assets/a9208160-0e46-4ac0-ba8d-ca67a1192770)
 
 ### Sobre mim:
         
