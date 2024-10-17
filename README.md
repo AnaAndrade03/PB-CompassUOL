@@ -2,7 +2,7 @@
 
 ## Sejam bem vindos! :)
 
-![foto rosto](../foto%20rosto.jpg)
+![foto rosto](https://github.com/user-attachments/assets/a83a3128-98f6-44df-8eb9-f3ec28f47f3d)
 
 
 ### Sobre mim:
