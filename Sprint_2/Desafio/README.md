@@ -15,7 +15,18 @@
 #### (Criando a modelagem dimensional)
   Depois de terminada a modelagem relacional, parti para a modelagem dimensional usando as tabelas que foram normalizadas na modelagem relacional, criando views para as tabelas dimensões e fato.
 
-  ![evidenciavier](../Evidências/desafio4.png)
-  ![evidenciacinque](../Evidências/desafio7.png)
+![evidenciavier](../Evidências/desafio4.png)
 
+#### Tabelas e views 
+
+![evidenciacinque](../Evidências/desafio7.png)
+
+### Diagrama das tabelas criadas na modelagem 
+#### modelagem relacional
+
+![evidenciacinque](../Evidências/desafio5.png)
+
+#### modelagem dimensional 
+
+![evidenciacinque](../Evidências/desafio6.png)
   
