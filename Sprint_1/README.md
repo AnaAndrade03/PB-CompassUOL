@@ -24,11 +24,9 @@ Por fim foi proposto um desafio com uso do Linux e depois de concluido usei o gi
 ### Script 2
 #### Faço a criação de outro script em bash para consolidação de relatórios.
 
-![evidencia](Evidências/7.png)
-
 ![evidenciauno](Evidências/5.png)
 
 ### Arquivos gerados
 #### Depois das execucções agendadas e execução manual do consolidador todos arquivos foram gerados.
 
-![evidenciauno](Evidências/desafio1.png)
+![evidencia](Evidências/7.png)
