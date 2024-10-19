@@ -24,9 +24,9 @@
 ### Diagrama das tabelas criadas na modelagem 
 #### modelagem relacional
 
-![evidenciacinque](../Evidências/Desafio5.png)
+![evidenciaroku](../Evidências/Desafio5.png)
 
 #### modelagem dimensional 
 
-![evidenciacinque](../Evidências/Desafio6.png)
+![evidenciasechs](../Evidências/Desafio6.png)
   
