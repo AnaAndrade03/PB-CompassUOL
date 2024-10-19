@@ -13,10 +13,10 @@ Após isso, também aprendi sobre modelagem de dados e suas peculiaridades e com
 ### Normalizando tabelas
 #### modelagem relacional
 
-![evidenciauno](Evidências/desafio1.png)
-![evidenciatwo](Evidências/desafio2.png)
+![evidenciauno](Evidências/Desafio1.png)
+![evidenciatwo](Evidências/Desafio2.png)
 
 ### Views
 #### modelagem dimensional
 
-![evidenciavier](Evidências/desafio4.png)
+![evidenciavier](Evidências/Desafio4.png)
