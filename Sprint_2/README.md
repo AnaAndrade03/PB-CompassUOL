@@ -24,5 +24,5 @@ Sobre AWS foi proposto um curso de sales accreditation (Business) onde aprendemo
 
 ## Exercicíos
 
-3. [Desafio Sprint 2](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2/Exerc%C3%ADcios)
+4. [Desafio Sprint 2](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2/Exerc%C3%ADcios)
 
