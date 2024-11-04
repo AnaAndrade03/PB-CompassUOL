@@ -53,12 +53,12 @@ Para o retorno de uma lista resolvi fazer um código que conta as 10 categorias 
 ### 7. Sétima etapa 
 #### (Crie pelo menos outras 2 formas gráficas de exibição dos indicadores acima utilizando a biblioteca matplotlib. Escolha tipos de gráficos diferentes dos explorados acima. Por exemplo: linhas e dispersão.)
 
-**Para representação da média, mediana e desvio padrão usei um gráfico de linhas**
+* Para representação da média, mediana e desvio padrão usei um gráfico de linhas
 
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio10.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio11.png)
 
-**Para representação das 10 categorias com mais apps**
+* Para representação das 10 categorias com mais apps
 
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio12.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio13.png)
