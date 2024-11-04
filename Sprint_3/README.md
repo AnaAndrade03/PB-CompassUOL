@@ -1,8 +1,8 @@
-# Sprint 
+# Sprint 3
 
 ## Resumo da Sprint 
 
-Na sprint 2 adquirimos conhecimentos sobre Python e AWS
+Na sprint 3 adquirimos conhecimentos sobre Python e AWS
 
 SObre SQL comeÇamos aprendendo sobre servidores de bancos de dados especificamente sobre o PGadmin que foi o servidor que o curso foi ensinado, depois disso aprendemos sobre o manuseio de bancos de dados com comandos do bÁsico ao avançado evoluindo o raciocínio para a elaboração de querys mais avançadas, para assim serem propostos vários exercícios com a utilização de dois bancos de dados diferentes. 
 
