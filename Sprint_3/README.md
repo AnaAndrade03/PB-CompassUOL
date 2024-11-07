@@ -6,7 +6,7 @@ Na sprint 3 adquirimos conhecimentos sobre Python e AWS
 
 Sobre Python aprendemos algoritmos estruturas de dados, fundamentos, POO, programação funcional e muitos outeros assuntos posteriormente, 
 foram propostos vários exercícios que enrqueceram mais ainda o aprendizado, depois disso dois arquivos foram disponiblizados um para fazer outro execício e o outro o desafio, os dois se tratavam de tratamento e visualização de dados. 
-Sobre a AWS tivemos um curso muito interessante sobre cloud economics onde foi possível prender sobre beneficios de custo da computação em nuvem.
+Sobre a AWS tivemos um curso muito interessante sobre cloud economics onde foi possível aprender sobre beneficios de custo da computação em nuvem.
 
 ## Certificados
 
