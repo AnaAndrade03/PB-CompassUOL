@@ -12,7 +12,7 @@ Na sprint 2 adquiri conhecimentos sobre Python, Docker e AWS
 
 ## Desafio 
 
-2. [Desafio Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2/Desafio)
+2. [Desafio Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Desafio)
 
 ## Evidências
 
