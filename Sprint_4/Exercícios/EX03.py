@@ -12,7 +12,7 @@ Na lista anterior, por exemplo, teríamos como resultado final 200.
 Além de utilizar lambdas, você deverá aplicar, obrigatoriamente, as seguintes funções na resolução:
 reduce (módulo functools)
 map
-------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 from functools import reduce
 
