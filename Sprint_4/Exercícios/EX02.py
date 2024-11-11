@@ -6,7 +6,8 @@ len
 filter
 lambda
 Desconsidere os caracteres acentuados. Eles não serão utilizados nos testes do seu código.
-
+---------------------------------------------------------------
+   
 def conta_vogais(texto:str)-> int:
    vogais = 'aeiouAEIOU' 
    achei_vogais = filter(lambda letra: letra in vogais, texto)
