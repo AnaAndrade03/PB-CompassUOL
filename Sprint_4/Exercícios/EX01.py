@@ -9,7 +9,8 @@ sum
 Seu código deverá exibir na saída (simplesmente utilizando 2 comandos `print()`):
 a lista dos 5 maiores números pares em ordem decrescente;
 a soma destes valores.
-
+------------------------------------------------------------------------------------------
+    
 with open ('number.txt', 'r') as arquivo_num:
     numeros = list(map(int, arquivo_num.readlines()))
 numeros_pares = filter(lambda int: int % 2 == 0, numeros)
