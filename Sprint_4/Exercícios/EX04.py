@@ -14,7 +14,7 @@ Na resolução da atividade você deverá aplicar as seguintes funções:
 max
 zip
 map
----------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------
          
 def calcular_valor_maximo(operadores,operandos) -> float:
     def operacao(op, op1, op2):
