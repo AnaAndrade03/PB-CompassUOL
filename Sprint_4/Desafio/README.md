@@ -1,7 +1,6 @@
 ### 1. Primeira etapa 
-#### (criando tabelas para normalização)
-Comecei fazendo as primeiras normalizaçoes criando tabelas para as entidades e suas respectivas informaçoes
-com suas respecctivas pks e fks.
+#### (criando arquivo dockerfile para a criação da imagem na pasta desafio_4)
+Criei o arquivo Dockerfile e nele colquei suas instruções para ser executado. 
 
 ![evidenciauno](../Evidências/Desafio1.png)
 ![evidenciatwo](../Evidências/Desafio2.png)
