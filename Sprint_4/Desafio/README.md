@@ -1,34 +1,55 @@
-### 1. Primeira etapa 
-#### (criando arquivo dockerfile para a criação da imagem na pasta desafio_4)
-Criei o arquivo Dockerfile e nele colquei suas instruções para ser executado. 
+### Resolvi dividir o desafio em duas partes, a primeira parte condiz a criação da imagem e do container do arquivo carguru.py.
 
-![evidenciauno](../Evidências/Desafio1.png)
-![evidenciatwo](../Evidências/Desafio2.png)
+## carguru.py
 
-### 2. Segunda etapa 
-#### (alocando dados nas tabelas criadas)
-  Depois de todas tabelas criadas comecei inserindo todos arquivos que pertenciam as entidades nas tabelas. Na tabela carro foi inserido apenas a quilomatragem mais atual do carro alugado considerando assim essa informação 
-uma caracteristica do carro, nas outras tabelas também foram inseridas as caracterias de cada entidade com algumas 
-mudanças de nomenclatura.
-
-![evidenciatrois](../Evidências/Desafio3.png)
-
-### 3. Terceira etapa 
-#### (Criando a modelagem dimensional)
-  Com a tabela normalizada na forma relacional parti para a modelagem dimensional, para isso fiz uso da criação de views,
-para quatro tabelas dimensão e uma view da tabela fato.
-
-![evidenciavier](../Evidências/Desafio4.png)
-
-#### Tabelas e views no banco de dados
-![evidenciacinque](../Evidências/Desafio7.png)
-
-### Diagrama das tabelas criadas na modelagem 
-#### modelagem relacional
-
-![evidenciaroku](../Evidências/Desafio5.png)
-
-#### modelagem dimensional 
-
-![evidenciasechs](../Evidências/Desafio6.png)
+### 1. Criei o arquivo Dockerfile e nele colquei suas instruções para ser executado. 
+* Comando usado para criar a imagem 
+  (**docker build -t img_carg**)
   
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_2.png)
+
+### 2. Prints das execuções mostrando a criação 
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_3.png)
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_4.png)
+
+### 3. Criação do container 
+* Comando usado para criar o container 
+  (**docker run -it --name cont_carg img_carg**)
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_6.png)
+
+
+### 4. Etapa 2 (Questionamento levantado) 
+* É possivel reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um dos containers parados em seu ambiente Docker, não sendo possível reutilizar, justifique sua resposta.
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_7.png)
+
+* Depois de parar o container com o comando **docker stop >container<** , usei o comando **docker start -i >container<** para roda-lo novamente.
+
+### Na segunda parte do desafio foi pedida a criação de um novo script Python que implementa o algoritmo a seguir:
+1. Receber uma string via input.
+* Gerar o hash da string por meio do algoritmo SHA-1.
+* Imprimir o hash em tela, utilizando o método hexdigest.
+* Retornar ao passo 1.
+2. Criar uma imagem Docker chamada mascarar-dados que execute o script Python criada anteriormente.
+3. Iniciar um container a partir da imagem, enviando algumas palaras para mascaramento.
+  
+## hash.py
+
+### 1. Criei o arquivo Dockerfile e nele colquei suas instruções para ser executado. 
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash01.png)
+
+### 2. Foi criado o scrip Python que implenta o algoritmo. 
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash02.png)
+
+### 3. Criação da imagem mascarar-dados e container que executa o script python
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash03.png)
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash04.png)
+
+### 3. Execução do container com o envio de palavras e dados para mascaramento. 
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash05.png)
