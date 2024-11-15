@@ -8,7 +8,7 @@ Em Python tivemos mais conteúdo do mesmo curso da Sprint 2 só que dessa vez os
 No curso de Docker 
 ## Certificados
 
-1. [Certificado Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2/Certificados)
+1. [Certificado Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Certificados)
 
 ## Desafio 
 
@@ -16,9 +16,9 @@ No curso de Docker
 
 ## Evidências
 
-3. [Evidências Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2/Evid%C3%AAncias)
+3. [Evidências Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Evid%C3%AAncias)
 
 ## Exercicíos
 
-4. [Desafio Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_2/Exerc%C3%ADcios)
+4. [Desafio Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Exerc%C3%ADcios)
 
