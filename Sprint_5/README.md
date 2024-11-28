@@ -1,8 +1,8 @@
-# Sprint 4
+# Sprint 5
 
 ## Resumo da Sprint 
 
-Na sprint 4 adquiri conhecimentos sobre Métodos ágeis, Python, Docker e AWS
+Na sprint adquiri conhecimentos majoritariamente sobre AWS.
 
 Sobre os métodos ágeis, que estavam disponíveis desde a Sprint 1, resolvi terminá-lo e descrever o desenvolvimento dele agora. Foi uma experiência enriquecedora para quem deseja entender profundamente como os métodos ágeis funcionam e como aplicá-los em projetos, seja no ambiente corporativo, no desenvolvimento de software ou em qualquer área que demande flexibilidade e colaboração.
 
@@ -14,17 +14,17 @@ Por fim, o curso de AWS foi muito enriquecedor apresentando conhecimento técnic
 
 ## Certificados
 
-1. [Certificado Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Certificados)
+1. [Certificado Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_5/Certificados)
 
 ## Desafio 
 
-2. [Desafio Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Desafio)
+2. [Desafio Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_5/Desafio)
 
 ## Evidências
 
-3. [Evidências Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Evid%C3%AAncias)
+3. [Evidências Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_5/Evid%C3%AAncias)
 
 ## Exercicíos
 
-4. [Desafio Sprint 4](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_4/Exerc%C3%ADcios)
+4. [Desafio Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_5/Exerc%C3%ADcios)
 
