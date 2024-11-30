@@ -1,0 +1,104 @@
+processo_ano;denominacao;categoria;classe_subclasse;municipio;ano;decada;tombamentos_por_municipio;está_em_bh?;anos_desde_o_tombamento
+PTE001/1979;Capela de São Sebastião;BI;"Edificação e acervo; templo";Araxá;1979;70;2;Não;45
+PTE002/1983;Prédio da antiga Cadeia Pública de Barbacena;BI;"Edificação; militar";Barbacena;1983;80;1;Não;41
+PTE003/1978;Prédio do antigo Senado Mineiro;BI;Edificação;Belo Horizonte;1978;70;34;Sim;46
+PTE004/1975;Arquivo Público Mineiro;BI;Edificação e acervo;Belo Horizonte;1975;70;34;Sim;49
+PTE005/1979;Igreja do Sagrado Coração de Jesus;BI;"Edificação; templo";Belo Horizonte;1979;70;34;Sim;45
+PTE007/1977;Catedral da Boa Viagem;BI;"Edificação e acervo; templo";Belo Horizonte;1977;70;34;Sim;47
+PTE009/1984;Conjunto arquitetônico e paisagístico da Pampulha;CP;"Conjunto arquitetônico; jardim histórico; templo";Belo Horizonte;1984;80;34;Sim;40
+PTE010/1977;Conjunto arquitetônico e paisagístico da Praça da Liberdade;CP;"Conjunto arquitetônico; jardim histórico";Belo Horizonte;1977;70;34;Sim;47
+PTE011/1977;Palácio da Justiça Rodrigues Campos;BI;Edificação e acervo;Belo Horizonte;1977;70;34;Sim;47
+PTE014/1975;Palácio da Liberdade;BI;"Edificação e acervo; jardim histórico";Belo Horizonte;1975;70;34;Sim;49
+PTE015/1977;Edifício do Necrotério do Cemitério do Bonfim;BI;Edificação;Belo Horizonte;1977;70;34;Sim;47
+PTE016/1975;Conjunto paisagístico do Parque Municipal;CP;"Jardim histórico; conjunto arquitetônico";Belo Horizonte;1975;70;34;Sim;49
+PTE017/1975;Prédio do antigo Conselho Deliberativo - Câmara Municipal de Belo Horizonte;BI;Edificação;Belo Horizonte;1975;70;34;Sim;49
+PTE018/1975;Fazenda Boa Esperança;CP;Conjunto rural;Belo Vale;1975;70;1;Não;49
+PTE020/1977;Fazenda dos Martins;BI;Conjunto rural;Brumadinho;1977;70;1;Não;47
+PTE021/1980;Casa de João Pinheiro;BI;Edificação;Caeté;1980;80;1;Não;44
+PTE022/1978;Igreja de Santa Isabel da Hungria;BI;"Edificação e acervo; templo";Caxambu;1978;70;2;Não;46
+PTE023/1980;Capela de Nossa Senhora do Rosário;BI;"Edificação e acervo; templo";Chapada do Norte;1980;80;4;Não;44
+PTE024/1981;Capela do Senhor Bom Jesus da Lapa;BI;"Edificação e acervo; templo";Chapada do Norte;1981;80;4;Não;43
+PTE025/1985;Capela do Senhor dos Passos;BI;"Edificação; templo";Conceição do Mato Dentro;1985;80;5;Não;39
+PTE026/1985;Igreja Matriz de Nossa Senhora Aparecida;BI;"Edificação e acervo; templo";Conceição do Mato Dentro;1985;80;5;Não;39
+PTE027/1985;Igreja de Santo Antônio;BI;"Edificação e acervo; templo";Conceição do Mato Dentro;1985;80;5;Não;39
+PTE028/1981;Romarias;CP;Edificação;Congonhas;1981;80;3;Não;43
+PTE029/1978;Capela de Nossa Senhora da Soledade;BI;"Edificação; templo";Congonhas;1978;70;3;Não;46
+PTE030/1985;Igreja Matriz de Sant'Ana;BI;"Edificação e acervo; templo";Congonhas do Norte;1985;80;1;Não;39
+PTE031/1977;Capela de Nossa Senhora da Conceição;BI;"Edificação e acervo; templo";Couto de Magalhães de Minas;1977;70;2;Não;47
+PTE032/1977;Igreja do Senhor Bom Jesus de Matozinhos;BI;"Edificação e acervo; templo";Couto de Magalhães de Minas;1977;70;2;Não;47
+PTE033/1977;Fazenda dos Macacos;BI;Conjunto rural;Conselheiro Lafaiete;1977;70;2;Não;47
+PTE034/1979;Igreja do Santíssimo Sacramento;BI;"Edificação e acervo; templo";Jequitibá;1979;70;1;Não;45
+PTE035/1985;Ruínas da Igreja do Bom Jesus de Matozinhos;BI;"Edificação; templo; ruína";Várzea da Palma;1985;80;1;Não;39
+PTE037/1978;Fórum de Oliveira;BI;Edificação;Oliveira;1978;70;4;Não;46
+PTE038/1978;Serra do Ouro Branco;CP;Patrimônio Natural;Ouro Branco;1978;70;3;Não;46
+PTE039/1976;Conjunto histórico da Capela de Nossa Senhora do Rosário e Quinta do Sumidouro;CP;"Conjunto arquitetônico; templo";Pedro Leopoldo;1976;70;1;Não;48
+PTE040/1978;Capela de Nossa Senhora do Rosário;BI;"Edificação e acervo; templo";Sabará;1978;70;4;Não;46
+PTE040/1978;Capela de Santa Efigênia;BI;"Edificação; templo";Sabará;1978;70;4;Não;46
+PTE041/1977;Conjunto arquitetônico e paisagístico da Igreja de Nossa Senhora da Lapa;CP;"Edificação; templo";Sabará;1977;70;4;Não;47
+PTE042/1978;Capela de Nossa Senhora da Ajuda;BI;"Edificação; templo";Congonhas;1978;70;3;Não;46
+PTE043/1976;Basílica de Santa Luzia do Rio das Velhas;BI;"Edificação; templo";Santa Luzia;1976;70;4;Não;48
+PTE044/1977;Casa da Rua Direita, nº 101;BI;Edificação;Santa Luzia;1977;70;4;Não;47
+PTE045/1978;Mosteiro de Macaúbas;BI;"Conjunto arquitetônico; templo; acervo";Santa Luzia;1978;70;4;Não;46
+PTE046/1975;Conjunto arquitetônico e paisagístico da Fazenda da Posse;CP;Conjunto rural;Santana dos Montes;1975;70;2;Não;49
+PTE047/1978;Parque Cabangu;CP;"Conjunto arquitetônico; acervo";Santos Dumont;1978;70;1;Não;46
+PTE049/1977;Lagoa e Lapa do Sumidouro;CP;Sítio arqueológico;"Lagoa Santa; Pedro Leopoldo";1977;70;1;Não;47
+PTE050/1977;Monumento Comemorativo do Centenário da Independência Nacional;BI;"Estrutura ou equipamento urbano; monumento";Belo Horizonte;1977;70;34;Sim;47
+PTE053/1980;Igreja Matriz de Nossa Senhora dos Prazeres;BI;"Edificação; templo";Serro;1980;80;2;Não;44
+PTE054/1980;Igreja Matriz de São Gonçalo;BI;"Edificação; templo";Serro;1980;80;2;Não;44
+PTE058/1984;Igreja de Nossa Senhora do Rosário;BI;"Edificação; templo";Sacramento;1984;80;2;Não;40
+PTE058/1984;Igreja Matriz de Nossa Senhora do Desterro;BI;"Edificação; templo";Sacramento;1984;80;2;Não;40
+PTE059/1985;Ponte Marechal Hermes;BI;"Estrutura ou equipamento urbano; ferrovia";"Pirapora; Buritizeiro";1985;80;1;Não;39
+PTE060/1980;Igreja Matriz de São Francisco de Assis;BI;"Edificação e acervo; templo";Minas Novas;1980;80;2;Não;44
+PTE061/1980;Capela de São Gonçalo;BI;"Edificação e acervo; templo";Minas Novas;1980;80;2;Não;44
+PTE062/1996;Conjunto arquitetônico e paisagístico da Fazenda da Jaguara;CP;"Conjunto rural; templo";Matozinhos;1996;90;2;Não;28
+PTE063/1977;Igreja Matriz de Santo Antônio;BI;"Edificação; templo";Mateus Leme;1977;70;1;Não;47
+PTE066/1985;Igreja Matriz de São Francisco de Assis;BI;"Edificação e acervo; templo";Conceição do Mato Dentro;1985;80;5;Não;39
+PTE067/1980;Igreja Matriz de Santa Cruz;BI;"Edificação e acervo; templo";Chapada do Norte;1980;80;4;Não;44
+PTE068/1982;Prédio do Instituto de Educação de Minas Gerais;BI;"Edificação; escola";Belo Horizonte;1982;80;34;Sim;42
+PTE069/1988;Prédio do antigo Banco Hipotecário e Agrícola;BI;Edificação;Belo Horizonte;1988;80;34;Sim;36
+PTE070/1982;Prédio da Escola Estadual Pedro II;BI;"Edificação e acervo; escola";Belo Horizonte;1982;80;34;Sim;42
+PTE071/1988;Praça Raul Soares;CP;Jardim histórico;Belo Horizonte;1988;80;34;Sim;36
+PTE072/1984;Praça Hugo Werneck;CP;Jardim histórico;Belo Horizonte;1984;80;34;Sim;40
+PTE072/1984;Prédio da Maternidade Hilda Brandão;BI;"Edificação; estrutura ou equipamento urbano; hospital";Belo Horizonte;1984;80;34;Sim;40
+PTE072/1984;Prédio do Hospital Borges da Costa;BI;"Edificação; estrutura ou equipamento urbano; hospital";Belo Horizonte;1984;80;34;Sim;40
+PTE073/1984;Praça Floriano Peixoto e prédio do Quartel do 1º Batalhão da PMMG;CP;"Jardim histórico; edificação; militar";Belo Horizonte;1984;80;34;Sim;40
+PTE074/1983;Conjunto de edificações na avenida João Pinheiro;BI;"Edificação; escola";Belo Horizonte;1983;80;34;Sim;41
+PTE075/1988;Conjunto arquitetônico e paisagístico da Praça Rui Barbosa;CP;"Jardim histórico; conjunto urbano; ferrovia; escola; estrutura ou equipamento urbano";Belo Horizonte;1988;80;34;Sim;36
+PTE077/1985;Conjunto arquitetônico e urbanístico da Capela de Nossa Senhora do Rosário;CP;"Conjunto urbano; templo";São Thomé das Letras;1985;80;2;Não;39
+PTE080/1988;Prédio da Secretaria de Estado de Agricultura, Pecuária e Abastecimento;BI;Edificação;Belo Horizonte;1988;80;34;Sim;36
+PTE081/1988;Prédio do Automóvel Clube;BI;Edificação;Belo Horizonte;1988;80;34;Sim;36
+PTE082/1988;Prédio do Conservatório Mineiro de Música;BI;Edificação;Belo Horizonte;1988;80;34;Sim;36
+PTE083/1988;Prédio da Escola Estadual Barão de Macaúbas;BI;"Edificação; escola";Belo Horizonte;1988;80;34;Sim;36
+PTE083/1988;Prédio da Escola Estadual Barão do Rio Branco;BI;"Edificação; escola";Belo Horizonte;1988;80;34;Sim;36
+PTE083/1988;Prédio da Escola Estadual Olegário Maciel;BI;"Edificação; escola";Belo Horizonte;1988;80;34;Sim;36
+PTE084/1988;Prédio da Academia Mineira de Letras;BI;Edificação;Belo Horizonte;1988;80;34;Sim;36
+PTE085/1989;Fazenda Mundo Novo;BI;Conjunto rural;Simão Pereira;1989;80;2;Não;35
+PTE086/1989;Capela de Nossa Senhora do Rosário;BI;"Edificação; templo";Piranga;1989;80;3;Não;35
+PTE087/1989;Fazenda das Melancias;BI;Conjunto rural;Água Comprida;1989;80;1;Não;35
+PTE088/1989;Casa de Arthur Bernardes;BI;Edificação;Viçosa;1989;80;1;Não;35
+PTE089/1989;Igreja de Nossa Senhora do Rosário;BI;"Edificação; templo";Januária;1989;80;1;Não;35
+PTE090/1989;Capela de Nossa Senhora do Rosário;BI;"Edificação; templo; ruína";Piranga;1989;80;3;Não;35
+PTE090/1989;Capela de Santo Antônio;BI;"Edificação; templo";Piranga;1989;80;3;Não;35
+PTE091/1989;Sítio da Varginha do Lourenço;CP;Sítio arqueológico;Conselheiro Lafaiete;1989;80;2;Não;35
+PTE093/1989;Complexo hidrotermal e hoteleiro de Poços de Caldas;CP;"Conjunto arquitetônico; acervo";Poços de Caldas;1989;80;2;Não;35
+PTE094/1989;Pico do Itabirito;CP;Patrimônio Natural;Itabirito;1989;80;1;Não;35
+PTE095/1995;Conjunto das ruínas do Gongo Soco;CP;Sítio arqueológico;Barão de Cocais;1995;90;1;Não;29
+PTE096/1995;Escola Estadual Professor Botelho Reis;BI;"Edificação; escola";Leopoldina;1995;90;1;Não;29
+PTE097/1996;Centro histórico de São Thomé das Letras e Igreja Matriz de São Thomé;CP;"Conjunto urbano; templo";São Thomé das Letras;1996;90;2;Não;28
+PTE098/1996;Conjunto arqueológico e paisagístico de Poções;CP;Sítio arqueológico;Matozinhos;1996;90;2;Não;28
+PTE099/1997;Igreja do Espírito Santo do Cerrado;BI;"Edificação; templo";Uberlândia;1997;90;1;Não;27
+PTE100/1989;Complexo hidrotermal e hoteleiro de Araxá;CP;"Conjunto arquitetônico; acervo";Araxá;1989;80;2;Não;35
+PTE102/1998;Fazenda Fonte Limpa;BI;Conjunto rural;Santana dos Montes;1998;90;2;Não;26
+PTE103/1998;Conjunto arquitetônico e paisagístico de Biribiri;CP;"Conjunto urbano; indústria";Diamantina;1998;90;2;Não;26
+PTE104/1998;Igreja Matriz de Santo Antônio;BI;"Edificação; templo; acervo";Itacambira;1998;90;1;Não;26
+PTE105/1998;Fazenda de São José do Manso;BI;"Conjunto rural; ruína";Ouro Preto;1998;90;2;Não;26
+PTE108/1999;Conjunto arquitetônico e paisagístico do Parque das Águas;CP;Conjunto arquitetônico;Caxambu;1999;90;2;Não;25
+PTE110/1999;Conjunto paisagístico das cachoeiras do Tombo da Fumaça;CP;Patrimônio Natural;Salto da Divisa;1999;90;1;Não;25
+PTE113/1989;Pico do Ibituruna;CP;Patrimônio Natural;Governador Valadares;1989;80;1;Não;35
+PTE114/1989;Pico do Itambé;CP;Patrimônio Natural;"Santo Antônio do Itambé;Serra Azul de Minas;Serro";1989;80;1;Não;35
+PTE115/1989;Complexo arquitetônico e paisagístico da Serra do Caraça;CP;Patrimônio Natural;"Catas Altas; Santa Bárbara";1989;80;1;Não;35
+PTE116/1989;Conjunto paisagístico da Serra da Piedade;CP;"Patrimônio Natural; templo";"Caeté; Sabará; Santa Luzia";1989;80;1;Não;35
+PTE117/1989;Serra do Ibitipoca;CP;Patrimônio Natural;"Lima Duarte; Santa Rita do Ibitipoca";1989;80;1;Não;35
+PTE118/1989;Serra do Cabral;CP;Patrimônio Natural;Augusto de Lima, Buenópolis, Francisco Dumont, Joaquim Felício, Lassance e Várzea da Palma;1989;80;1;Não;35
+PTE119/1989;Serra de São Domingos;CP;Patrimônio Natural;Poços de Caldas;1989;80;2;Não;35
+PTE120/1989;Bacia hidrográfica do Rio Jequitinhonha;CP;Patrimônio Natural;Diversos (62 municípios);1989;80;1;Não;35
