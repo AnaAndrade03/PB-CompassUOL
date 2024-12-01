@@ -2,15 +2,14 @@
 
 ## Resumo da Sprint 
 
-Na sprint adquiri conhecimentos majoritariamente sobre AWS.
+Nesta sprint, focamos bastante em aprender sobre a AWS.
 
-Sobre os métodos ágeis, que estavam disponíveis desde a Sprint 1, resolvi terminá-lo e descrever o desenvolvimento dele agora. Foi uma experiência enriquecedora para quem deseja entender profundamente como os métodos ágeis funcionam e como aplicá-los em projetos, seja no ambiente corporativo, no desenvolvimento de software ou em qualquer área que demande flexibilidade e colaboração.
+Começamos com o jogo Cloud Quest, que é uma experiência prática super interessante para explorar a nuvem AWS. O objetivo foi entender os conceitos principais da plataforma, como computação, rede, segurança e armazenamento. Esse jogo me ajudou bastante a me preparar para a certificação da AWS e me deu uma base sólida para aprofundar meus conhecimentos em conceitos mais avançados depois.
 
-Em Python tivemos mais conteúdo do mesmo curso da Sprint 2 só que dessa vez os estudos foram sobre programação funcional.
+Outro curso que fiz foi o AWS Certified Cloud Practitioner (CLF-C02). Voltado para iniciantes, esse curso foi essencial para entender o básico sobre a AWS. Aprendi a explicar o valor da AWS, como funciona o modelo de responsabilidade compartilhada, as melhores práticas de segurança e como gerenciar os custos e a cobrança da plataforma. O curso foi ótimo para me preparar para o exame, abordando aspectos técnicos e econômicos, e agora me sinto mais confiante para a certificação.
 
-No curso de Docker o curso foi do básico ao avançado também com orquestração de docker swarm e kubernets.
+Além disso, completei o curso opcional "Elementos essenciais do AWS Cloud Practitioner" (em português), que é voltado para quem quer entender os conceitos gerais da plataforma, sem precisar ter um foco técnico. Aprendi sobre os principais serviços da AWS, segurança, arquitetura, preços e como funciona o suporte. Esse curso também foi bem útil para reforçar tudo o que já tinha aprendido e dar uma visão mais completa da AWS.
 
-Por fim, o curso de AWS foi muito enriquecedor apresentando conhecimento técnico fundamental sobre computação em nuvem da AWS.
 
 ## Certificados
 
