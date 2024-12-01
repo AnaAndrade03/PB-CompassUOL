@@ -1,15 +1,14 @@
-### Resolvi dividir o desafio em duas partes, a primeira parte condiz a criação da imagem e do container do arquivo carguru.py.
+### Desafio AWS S3.
 
-## carguru.py
+### 1. Primeira etapa 
+#### (Criação do bucket)
 
-### 1. Criei o arquivo Dockerfile e nele colquei suas instruções para ser executado. 
-* Comando usado para criar a imagem 
-  (**docker build -t img_carg**)
-  
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_1.png)
+
+### 2. Segunda etapa 
+#### (Instalção da CLI, configuração da mesma e download da biblioteca boto3)
+
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_2.png)
-
-### 2. Prints das execuções mostrando a criação 
-
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_3.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_4.png)
 
