@@ -1,54 +1,39 @@
 ### Desafio AWS S3.
 
 ### 1. Primeira etapa 
-#### (Criação do bucket)
+#### (Criação do bucket na AWS)
 
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_1.png)
 
 ### 2. Segunda etapa 
-#### (Instalção da CLI, configuração da mesma e download da biblioteca boto3)
+#### (Instalção da CLI e configuração da mesma.)
 
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_2.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_3.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_4.png)
 
-### 3. Criação do container 
-* Comando usado para criar o container 
-  (**docker run -it --name cont_carg img_carg**)
+### 3. Terceira etapa 
+#### (Download da biblioteca boto3)
+
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_5.png)
+
+### 4. Quarta etapa 
+#### (Enviando o arquivo CSV (conjunto de dados) escolhido para o bucket no S3)
+*O código cria uma sessão com as credenciais do perfil e conecta ao S3 da AWS. Depois, ele faz o upload de um arquivo localizado no computador (no caso, processos-tombo.csv) para o bucket desafiodados-sprint6. Se o envio for bem-sucedido, ele imprime uma mensagem confirmando o envio. Caso aconteça algum erro, ele captura o problema e exibe uma mensagem de erro.*
 
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_6.png)
 
+### 5. Quinta etapa 
+#### (tratamento de dados a partir da leitura do arquivo no bucket.)
 
-### 4. Etapa 2 (Questionamento levantado) 
-* É possivel reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um dos containers parados em seu ambiente Docker, não sendo possível reutilizar, justifique sua resposta.
+*Depois de carregar os dados no DataFrame, o código começa a fazer algumas transformações nos dados. Ele adiciona novas colunas para organizar melhor as informações, como o ano do tombamento, a década, quantidade de tombamentos por município e a quantos anos ocorreu o tombamento do bem. Também aplica alguns filtros, pegando apenas os dados que atendem a certos critérios, como os tombamentos de bem imóvel ou conjunto paisagístico que aconteceram entre 1970 e 1999.*
+
+*Depois de tudo isso, o código salva o resultado em um arquivo CSV no computador local. E faz o upload desse arquivo novo para o S3, no mesmo bucket. O código confirma o sucesso da leitura e do envio, mas se algo der errado, ele exibe uma mensagem de erro.*
 
 ![evidenciauno](../Evidências/Evidências_Desafio/Desafio_7.png)
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_8.png)
 
-* Depois de parar o container com o comando **docker stop >container<** , usei o comando **docker start -i >container<** para roda-lo novamente.
+### 6. Resultados dos obejetos no bucket do S3 
+#### (Print dos dois arquivos no Bucket 'desafiodados-sprint6' o original e o novo gerado.)
 
-### Na segunda parte do desafio foi pedida a criação de um novo script Python que implementa o algoritmo a seguir:
-1. Receber uma string via input.
-* Gerar o hash da string por meio do algoritmo SHA-1.
-* Imprimir o hash em tela, utilizando o método hexdigest.
-* Retornar ao passo 1.
-2. Criar uma imagem Docker chamada mascarar-dados que execute o script Python criada anteriormente.
-3. Iniciar um container a partir da imagem, enviando algumas palaras para mascaramento.
-  
-## hash.py
-
-### 1. Criei o arquivo Dockerfile e nele colquei suas instruções para ser executado. 
-
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash01.png)
-
-### 2. Foi criado o scrip Python que implenta o algoritmo. 
-
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash02.png)
-
-### 3. Criação da imagem mascarar-dados e container que executa o script python
-
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash03.png)
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash04.png)
-
-### 3. Execução do container com o envio de palavras e dados para mascaramento. 
-
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_hash05.png)
+![evidenciauno](../Evidências/Evidências_Desafio/Desafio_9.png)
