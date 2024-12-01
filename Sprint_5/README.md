@@ -10,6 +10,7 @@ Outro curso que fiz foi o AWS Certified Cloud Practitioner (CLF-C02). Voltado pa
 
 Além disso, completei o curso opcional "Elementos essenciais do AWS Cloud Practitioner" (em português), que é voltado para quem quer entender os conceitos gerais da plataforma, sem precisar ter um foco técnico. Aprendi sobre os principais serviços da AWS, segurança, arquitetura, preços e como funciona o suporte. Esse curso também foi bem útil para reforçar tudo o que já tinha aprendido e dar uma visão mais completa da AWS.
 
+Por fim o desafio proposto foi, a criação de um bucket e com uso do python e da biblioteca boto3 é pedido o upload de um conjunto de dados em csv de nossa escolha, aentão a leitura desse mesmo arquivo deve ser feita localmente com python, devem também ser feitas algumas manipulações, gerar um novo dataframe que será salvo em outro arquivo csv localmente, que terá que ser upado para o mesmo bucket que está o arquivo csv original.
 
 ## Certificados
 
