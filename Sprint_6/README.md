@@ -12,17 +12,17 @@ Também explorei o Amazon Redshift, que é uma solução de data warehouse, e vi
 
 ## Certificados
 
-1. [Certificado Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Certificados)
+1. [Certificado Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Certificados)
 
 ## Desafio 
 
-2. [Desafio Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Desafio)
+2. [Desafio Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Desafio)
 
 ## Evidências
 
-3. [Evidências Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Evid%C3%AAncias)
+3. [Evidências Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Evid%C3%AAncias)
 
 ## Exercicíos
 
-4. [Desafio Sprint 5](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Exerc%C3%ADcios)
+4. [Desafio Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Exerc%C3%ADcios)
 
