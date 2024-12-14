@@ -1,27 +1,34 @@
-### Desafio AWS S3.
+### Desafio Final: Entrega 1.
 
 ### 1. Primeira etapa 
-#### (Criação do bucket na AWS)
+#### (Criação do script em python.)
+- *Ocorrem definições de configuração de caminho.*
+- *Tentativa de criação do bucket*
+- *Envio de arquivos locais para o recém criado bucket*
 
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_1.png)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_01.png)
 
 ### 2. Segunda etapa 
-#### (Instalção da CLI e configuração da mesma.)
+#### (Criação do arquivo Dockerfile.)
 
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_2.png)
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_3.png)
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_4.png)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_02.png)
 
 ### 3. Terceira etapa 
-#### (Download da biblioteca boto3)
+#### (Criação da imagem bucket_carregamento com o Dockerfile antes apresentado.)
 
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_5.png)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_03.png)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_04.png)
+
+- *listagem de imagens*
+
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_05.png)
 
 ### 4. Quarta etapa 
-#### (Enviando o arquivo CSV (conjunto de dados) escolhido para o bucket no S3)
-*O código cria uma sessão com as credenciais do perfil e conecta ao S3 da AWS. Depois, ele faz o upload de um arquivo localizado no computador (no caso, processos-tombo.csv) para o bucket desafiodados-sprint6. Se o envio for bem-sucedido, ele imprime uma mensagem confirmando o envio. Caso aconteça algum erro, ele captura o problema e exibe uma mensagem de erro.*
+#### (Execução do contêiner com base na imagem chamada.)
+- *Montagem volumes do sistema host para o contêiner.*
+- *Ocorre também apontamento no sistema host onde as credenciais e configurações da AWS são armazenadas.*
 
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_6.png)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_06.png)
 
 ### 5. Quinta etapa 
 #### (tratamento de dados a partir da leitura do arquivo no bucket.)
