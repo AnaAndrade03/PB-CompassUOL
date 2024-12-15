@@ -8,7 +8,7 @@
    
 ### Desafio Final: Entrega 1.
 
-### 1. Primeira etapa 
+### 1. Primeira etapa.
 #### (Criação do script em python.)
 - *Ocorrem definições de configuração de caminho.*
 - *Tentativa de criação do bucket*
@@ -16,12 +16,12 @@
 
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_01.png)
 
-### 2. Segunda etapa 
+### 2. Segunda etapa.
 #### (Criação do arquivo Dockerfile.)
 
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_02.png)
 
-### 3. Terceira etapa 
+### 3. Terceira etapa.
 #### (Criação da imagem bucket_carregamento com o Dockerfile antes apresentado.)
 
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_03.png)
@@ -31,7 +31,7 @@
 
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_05.png)
 
-### 4. Quarta etapa 
+### 4. Quarta etapa.
 #### (Execução do contêiner com base na imagem chamada.)
 - *Montagem volumes do sistema host para o contêiner.*
 - *Ocorre também apontamento no sistema host onde as credenciais e configurações da AWS são armazenadas.*
@@ -42,11 +42,11 @@
 
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_07.png)
 
-### 5. Resultados 
+### 5. Resultados. 
 #### (anas-data-lake já criado na AWS)
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_08.png)
 
-### 6. Resultados
+### 6. Resultados.
 #### (caminhos com padrão solicitado)
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_09.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_10.png)
