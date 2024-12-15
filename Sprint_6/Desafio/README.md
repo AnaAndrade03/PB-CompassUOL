@@ -1,3 +1,7 @@
+### Perguntas referentes aos dados: 
+
+
+
 ### Desafio Final: Entrega 1.
 
 ### 1. Primeira etapa 
