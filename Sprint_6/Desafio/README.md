@@ -1,7 +1,11 @@
 ### Perguntas referentes aos dados: 
 
+1. Verificar se séries relacionadas a grandes franquias (como Star Trek ou Game of Thrones) influenciam a popularidade geral dos gêneros.
 
+2. Identificar séries que continuaram ativas por muitos anos, com base em anoLancamento e anoTermino.
 
+3. Identificar se há períodos de "boom" de séries de Fantasia ou Sci-Fi (ex.: aumento nas décadas de 1990 ou 2010).
+   
 ### Desafio Final: Entrega 1.
 
 ### 1. Primeira etapa 
@@ -34,17 +38,15 @@
 
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_06.png)
 
-### 5. Quinta etapa 
-#### (tratamento de dados a partir da leitura do arquivo no bucket.)
+- (Container rodado)
 
-*Depois de carregar os dados no DataFrame, o código começa a fazer algumas transformações nos dados. Ele adiciona novas colunas para organizar melhor as informações, como o ano do tombamento, a década, quantidade de tombamentos por município e a quantos anos ocorreu o tombamento do bem. Também aplica alguns filtros, pegando apenas os dados que atendem a certos critérios, como os tombamentos de bem imóvel ou conjunto paisagístico que aconteceram entre 1970 e 1999.*
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_07.png)
 
-*Depois de tudo isso, o código salva o resultado em um arquivo CSV no computador local. E faz o upload desse arquivo novo para o S3, no mesmo bucket. O código confirma o sucesso da leitura e do envio, mas se algo der errado, ele exibe uma mensagem de erro.*
+### 5. Resultados 
+#### (anas-data-lake já criado na AWS)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_08.png)
 
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_7.png)
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_8.png)
-
-### 6. Resultados dos obejetos no bucket do S3 
-#### (Print dos dois arquivos no Bucket 'desafiodados-sprint6' o original e o novo gerado.)
-
-![evidenciauno](../Evidências/Evidências_Desafio/Desafio_9.png)
+### 6. Resultados
+#### (caminhos com padrão solicitado)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_09.png)
+![evidenciauno](../Evidências/Evidências_Desafio/desafio_10.png)
