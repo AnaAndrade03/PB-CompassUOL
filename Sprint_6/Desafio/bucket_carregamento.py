@@ -24,8 +24,8 @@ except ClientError as e:
 
 #lendo os arquivos e mandando para o bucket que acabou de ser criado com o path especifico
 arquivos_para_enviar = [
-    r'C:\Users\andra\Projetos\PB-Compass\Sprint_6\Desafio\movies.csv',
-    r'C:\Users\andra\Projetos\PB-Compass\Sprint_6\Desafio\series.csv'                    
+    '/dados/movies.csv', 
+    '/dados/series.csv'   
 ]
 
 s3_keys = f"{RAW_ZONE}/{ORIGEM}/{FORMATO}/Movies/{DATA_ATUAL}/movies.csv", f"{RAW_ZONE}/{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/series.csv"
