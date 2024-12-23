@@ -1,28 +1,26 @@
-# Sprint 6
+# Sprint 7
 
 ## Resumo da Sprint 
 
-Nesta sprint, focamos bastante em aprender sobre a AWS.
+Nesta sprint, o foco foi Spark
 
-Fazer esses cursos da AWS Skill Builder foi uma experiência muito prática e útil. Comecei com os cursos de Fundamentos de Analytics na AWS – Parte 1 e 2, que explicaram como lidar com grandes volumes de dados, os desafios envolvidos e as soluções que a AWS oferece, como data lakes e data warehouses. Eles mostraram como usar os serviços de forma simples e organizada para resolver problemas reais.
+O curso de spark com foco em PySpark foi uma experiência voltada para entender como trabalhar com grandes volumes de dados de forma distribuída. O curso abordou os conceitos fundamentais do Apache Spark, sua arquitetura distribuída e como ele processa dados em larga escala. Em PySpark, aprendi a manipular dados usando DataFrames, RDDs, e a aplicar transformações e ações para realizar análises complexas.
 
-Depois, aprendi sobre o Amazon Athena, uma ferramenta fácil de usar para rodar consultas em dados diretamente no S3, e o AWS Glue, que ajuda a juntar e preparar dados de forma automática, o que economiza muito tempo. No curso sobre o Amazon EMR, descobri como processar grandes volumes de dados usando ferramentas conhecidas como Apache Spark, sem complicações.
-
-Também explorei o Amazon Redshift, que é uma solução de data warehouse, e vi como organizar e analisar dados de forma eficiente. O curso de Serverless Analytics foi interessante para aprender como conectar e processar diferentes tipos de dados sem precisar me preocupar com servidores. Por fim, o Amazon QuickSight me ensinou a criar relatórios e dashboards interativos de forma simples e prática. Esses cursos foram uma ótima maneira de entender como usar a AWS no dia a dia, mesmo para quem está começando.
+Também explorei tarefas comuns de ETL (Extração, Transformação e Carga), otimizações no processamento, integração com outras ferramentas como Hadoop e Spark SQL. Foi um aprendizado prático, focado em resolver problemas reais com código eficiente e escalável.
 
 ## Certificados
 
-1. [Certificado Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Certificados)
+1. [Certificado Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_7/Certificados)
 
 ## Desafio 
 
-2. [Desafio Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Desafio)
+2. [Desafio Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_7/Desafio)
 
 ## Evidências
 
-3. [Evidências Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Evid%C3%AAncias)
+3. [Evidências Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_7/Evid%C3%AAncias)
 
 ## Exercicíos
 
-4. [Desafio Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6/Exerc%C3%ADcios)
+4. [Desafio Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_7/Exerc%C3%ADcios)
 
