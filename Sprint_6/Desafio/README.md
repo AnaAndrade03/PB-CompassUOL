@@ -32,7 +32,7 @@
 ![evidenciauno](../Evidências/Evidências_Desafio/desafio_05.png)
 
 ### 4. Quarta etapa.
-#### (Execução do contêiner com base na imagem chamada.)
+#### (Execução do container com base na imagem chamada.)
 - *Montagem volumes do sistema host para o contêiner.*
 - *Ocorre também apontamento no sistema host onde as credenciais e configurações da AWS são armazenadas.*
 
