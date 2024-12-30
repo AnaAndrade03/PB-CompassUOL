@@ -1,52 +1,62 @@
-### Perguntas referentes aos dados: 
-
-1. Verificar se séries relacionadas a grandes franquias (como Star Trek ou Game of Thrones) influenciam a popularidade geral dos gêneros.
-
-2. Identificar séries que continuaram ativas por muitos anos, com base em anoLancamento e anoTermino.
-
-3. Identificar se há períodos de "boom" de séries de Fantasia ou Sci-Fi (ex.: aumento nas décadas de 1990 ou 2010).
-   
-### Desafio Final: Entrega 1.
+### Desafio Final: Entrega 2.
 
 ### 1. Primeira etapa.
-#### (Criação do script em python.)
-- *Ocorrem definições de configuração de caminho.*
-- *Tentativa de criação do bucket*
-- *Envio de arquivos locais para o recém criado bucket*
+#### (Criando camada do tmdb para uso no lambda.)
+- *Arquivo Dockerfile*
+- *Criação da imagem*
+  
+![evidenciauno](../Evidências/Evidências_Desafio/01.png)
 
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_01.png)
+- *Criação do container, pastas e instalação da api no pacote que será transformado em camada*
+
+![evidenciauno](../Evidências/Evidências_Desafio/02.png)
+![evidenciauno](../Evidências/Evidências_Desafio/03.png)
+
+- *Zipando a pasta e fazendo uma copia para o path definido*
+
+![evidenciauno](../Evidências/Evidências_Desafio/04.png)
+![evidenciauno](../Evidências/Evidências_Desafio/05.png)
 
 ### 2. Segunda etapa.
-#### (Criação do arquivo Dockerfile.)
+#### (Subindo apasta zipada para um bucket no S3.)
+![evidenciauno](../Evidências/Evidências_Desafio/07.png)
 
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_02.png)
+- *Criação da função-tmdb*
+
+![evidenciauno](../Evidências/Evidências_Desafio/06.png)
+
+- *Criação da camada*
+- *Adicionando camada*
+
+![evidenciauno](../Evidências/Evidências_Desafio/08.png)
 
 ### 3. Terceira etapa.
-#### (Criação da imagem bucket_carregamento com o Dockerfile antes apresentado.)
+#### (Definindo variável de ambiente para melhor prática no código)
 
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_03.png)
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_04.png)
-
-- *listagem de imagens*
-
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_05.png)
+![evidenciauno](../Evidências/Evidências_Desafio/10.png)
 
 ### 4. Quarta etapa.
-#### (Execução do container com base na imagem chamada.)
-- *Montagem volumes do sistema host para o contêiner.*
-- *Ocorre também apontamento no sistema host onde as credenciais e configurações da AWS são armazenadas.*
+#### (Elaboração do código para coleta de dados da API e produção dos arquivos json a serem enviados para o bucket anas-data-lake)
 
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_06.png)
+- *Prints no vscode local para melhor visualização*
 
-- (Container rodado)
-
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_07.png)
+![evidenciauno](../Evidências/Evidências_Desafio/11.png)
+![evidenciauno](../Evidências/Evidências_Desafio/12.png)
+![evidenciauno](../Evidências/Evidências_Desafio/13.png)
 
 ### 5. Resultados. 
-#### (anas-data-lake já criado na AWS)
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_08.png)
+#### (Código rodado no lambda com sucesso)
+![evidenciauno](../Evidências/Evidências_Desafio/14.png)
+![evidenciauno](../Evidências/Evidências_Desafio/15.png)
+
+- (Caminhos no bucket e diretórios corretos como solicitado)
+
+![evidenciauno](../Evidências/Evidências_Desafio/16.png)
+![evidenciauno](../Evidências/Evidências_Desafio/17.png)
+![evidenciauno](../Evidências/Evidências_Desafio/18.png)
 
 ### 6. Resultados.
-#### (caminhos com padrão solicitado)
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_09.png)
-![evidenciauno](../Evidências/Evidências_Desafio/desafio_10.png)
+#### (Arquivos gerados pelo código depois de feito download na maquina local)
+![evidenciauno](../Evidências/Evidências_Desafio/19.png)
+![evidenciauno](../Evidências/Evidências_Desafio/20.png)
+![evidenciauno](../Evidências/Evidências_Desafio/21.png)
