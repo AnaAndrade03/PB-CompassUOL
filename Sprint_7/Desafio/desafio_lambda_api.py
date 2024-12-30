@@ -25,12 +25,14 @@ FORMATO = "JSON"
 
 s3_client = boto3.client('s3')
 
-def buscar_series_por_genero (chave_api, genero_id):
+#busca as series com o genero pedido e as formata para melhor visualização no arquivo json final.
+def buscar_e_formatar_series(chave_api, genero_id):
     url = f"https://api.themoviedb.org/3/discover/tv"
+ 
     parametros = {
         "api_key": chave_api,
         "with_genres": genero_id,
-        "language": tmdb.idioma,  
+        "language": tmdb.idioma,
         "vote_count.gte": 5000,
         "first_air_date.gte": "2010-01-01",
         "page": 1
@@ -38,11 +40,31 @@ def buscar_series_por_genero (chave_api, genero_id):
     response = requests.get(url, params=parametros)
     
     if response.status_code == 200:
-        return response.json()
+        print("Busca bem-sucedida! Dados do TMDB recebidos com sucesso.")
     else:
-        print(f"Erro: {response.status_code}")
-        return None
+        print(f"Erro na busca. Código de status: {response.status_code}")
+        return []
+    
+    dados = response.json()
+    if not dados:
+        return []
+    
+#formatando dados de parametros para melhor analise dos dados 
+    return [
+        {
+            "ID": serie.get("id"),
+            "Título": serie.get("name"),
+            "Título Original": serie.get("original_name"),
+            "Lingua Original": serie.get("original_language"),
+            "Popularidade": serie.get("popularity"),
+            "Data de lançamento": serie.get("first_air_date"),
+            "Número de votações realizadas": serie.get("vote_count"),
+            "Média de Votação (0-10)": serie.get("vote_average"),
+        }
+        for serie in dados.get('results', [])
+    ]
 
+# Função que salva arquivo no bucket
 def salvar_no_bucket(dados, caminho_s3):
     try:
         s3_client.put_object(
@@ -50,33 +72,13 @@ def salvar_no_bucket(dados, caminho_s3):
             Key = caminho_s3,
             Body = json.dumps(dados, ensure_ascii=False, indent=4).encode('utf-8')
         )
-        print(f"Arquivo json enviado para S3: {caminho_s3}")
+        print(f"Arquivo json enviado com sucesso para bucket anas-data-lake!: {caminho_s3}")
     except Exception as e:
         print(f"Erro ao enviar arquivo json para S3: {str(e)}")
 
-def formatacao_json():
-    dados = buscar_series_por_genero(chave_api, genero_id)
-    
-    if dados:
-
-        dados_formatados = [
-            {
-                "ID": serie.get("id"),
-                "Título": serie.get("name"),
-                "Título Original": serie.get("original_name"),
-                "Lingua Original": serie.get("original_language"),
-                "Popularidade": serie.get("popularity"),
-                "Data de lançamento": serie.get("first_air_date"),
-                "Número de votações realizadas": serie.get("vote_count"),
-                "Média de Votação (0-10)": serie.get("vote_average"),
-            }
-            for serie in dados['results']
-        ]
-        return dados_formatados
-    return []
-
+# Função que processa os dados que que vão compor 3 arquivos json, cada um com uma ordenação diferente.
 def processar_series_por_genero():
-    dados = formatacao_json()[:10]
+    dados = buscar_e_formatar_series()[:10]
     
     if dados:
         dados_ordenados_votos = sorted(dados, key=lambda x: x['Número de votações realizadas'], reverse=True)
