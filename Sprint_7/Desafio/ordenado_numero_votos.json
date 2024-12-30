@@ -1,0 +1,102 @@
+[
+    {
+        "ID": 1399,
+        "Título": "Game of Thrones",
+        "Título Original": "Game of Thrones",
+        "Lingua Original": "en",
+        "Popularidade": 751.966,
+        "Data de lançamento": "2011-04-17",
+        "Número de votações realizadas": 24323,
+        "Média de Votação (0-10)": 8.5
+    },
+    {
+        "ID": 66732,
+        "Título": "Stranger Things",
+        "Título Original": "Stranger Things",
+        "Lingua Original": "en",
+        "Popularidade": 494.371,
+        "Data de lançamento": "2016-07-15",
+        "Número de votações realizadas": 17812,
+        "Média de Votação (0-10)": 8.599
+    },
+    {
+        "ID": 1402,
+        "Título": "The Walking Dead",
+        "Título Original": "The Walking Dead",
+        "Lingua Original": "en",
+        "Popularidade": 413.495,
+        "Data de lançamento": "2010-10-31",
+        "Número de votações realizadas": 16610,
+        "Média de Votação (0-10)": 8.106
+    },
+    {
+        "ID": 63174,
+        "Título": "Lucifer",
+        "Título Original": "Lucifer",
+        "Lingua Original": "en",
+        "Popularidade": 594.888,
+        "Data de lançamento": "2016-01-25",
+        "Número de votações realizadas": 14777,
+        "Média de Votação (0-10)": 8.457
+    },
+    {
+        "ID": 60735,
+        "Título": "Flash",
+        "Título Original": "The Flash",
+        "Lingua Original": "en",
+        "Popularidade": 644.014,
+        "Data de lançamento": "2014-10-07",
+        "Número de votações realizadas": 11143,
+        "Média de Votação (0-10)": 7.781
+    },
+    {
+        "ID": 76479,
+        "Título": "The Boys",
+        "Título Original": "The Boys",
+        "Lingua Original": "en",
+        "Popularidade": 747.789,
+        "Data de lançamento": "2019-07-25",
+        "Número de votações realizadas": 10633,
+        "Média de Votação (0-10)": 8.465
+    },
+    {
+        "ID": 60625,
+        "Título": "Rick e Morty",
+        "Título Original": "Rick and Morty",
+        "Lingua Original": "en",
+        "Popularidade": 762.713,
+        "Data de lançamento": "2013-12-02",
+        "Número de votações realizadas": 9843,
+        "Média de Votação (0-10)": 8.7
+    },
+    {
+        "ID": 48866,
+        "Título": "Os 100",
+        "Título Original": "The 100",
+        "Lingua Original": "en",
+        "Popularidade": 543.796,
+        "Data de lançamento": "2014-03-19",
+        "Número de votações realizadas": 8136,
+        "Média de Votação (0-10)": 7.897
+    },
+    {
+        "ID": 42009,
+        "Título": "Black Mirror",
+        "Título Original": "Black Mirror",
+        "Lingua Original": "en",
+        "Popularidade": 671.443,
+        "Data de lançamento": "2011-12-04",
+        "Número de votações realizadas": 5099,
+        "Média de Votação (0-10)": 8.3
+    },
+    {
+        "ID": 94997,
+        "Título": "A Casa do Dragão",
+        "Título Original": "House of the Dragon",
+        "Lingua Original": "en",
+        "Popularidade": 591.893,
+        "Data de lançamento": "2022-08-21",
+        "Número de votações realizadas": 5066,
+        "Média de Votação (0-10)": 8.4
+    }
+]

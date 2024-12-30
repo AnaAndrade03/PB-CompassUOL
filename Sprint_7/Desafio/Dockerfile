@@ -1,12 +1,8 @@
-FROM python:3.9
+FROM amazonlinux:2023
 
-RUN pip install boto3
-
-WORKDIR /dados
-
-COPY . .
-
-VOLUME ["/dados"]
-
-CMD ["python", "bucket_carregamento.py"]
+RUN yum update -y
+RUN yum install -y \
+python3-pip \
+zip
+RUN yum -y clean all
 
