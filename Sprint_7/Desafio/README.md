@@ -19,16 +19,18 @@
 
 ### 2. Segunda etapa.
 #### (Subindo apasta zipada para um bucket no S3.)
-![evidenciauno](../Evidências/Evidências_Desafio/07.png)
+![evidenciauno](../Evidências/Evidências_Desafio/06.png)
 
 - *Criação da função-tmdb*
 
-![evidenciauno](../Evidências/Evidências_Desafio/06.png)
+![evidenciauno](../Evidências/Evidências_Desafio/07.png)
+
 
 - *Criação da camada*
 - *Adicionando camada*
 
 ![evidenciauno](../Evidências/Evidências_Desafio/08.png)
+![evidenciauno](../Evidências/Evidências_Desafio/09.png)
 
 ### 3. Terceira etapa.
 #### (Definindo variável de ambiente para melhor prática no código)
@@ -43,20 +45,23 @@
 ![evidenciauno](../Evidências/Evidências_Desafio/11.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/12.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/13.png)
+![evidenciauno](../Evidências/Evidências_Desafio/14.png)
 
 ### 5. Resultados. 
 #### (Código rodado no lambda com sucesso)
-![evidenciauno](../Evidências/Evidências_Desafio/14.png)
+
 ![evidenciauno](../Evidências/Evidências_Desafio/15.png)
+![evidenciauno](../Evidências/Evidências_Desafio/16.png)
 
 - (Caminhos no bucket e diretórios corretos como solicitado)
 
-![evidenciauno](../Evidências/Evidências_Desafio/16.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/17.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/18.png)
+![evidenciauno](../Evidências/Evidências_Desafio/19.png)
 
 ### 6. Resultados.
 #### (Arquivos gerados pelo código depois de feito download na maquina local)
-![evidenciauno](../Evidências/Evidências_Desafio/19.png)
+
 ![evidenciauno](../Evidências/Evidências_Desafio/20.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/21.png)
+![evidenciauno](../Evidências/Evidências_Desafio/22.png)
