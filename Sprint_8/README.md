@@ -16,17 +16,17 @@ Nesta sprint, o foco principal esteve dividido em dois objetivos:
 
 ## Certificados
 
-1. [Certificado Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Certificados)
+1. [Certificado Sprint 8](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Certificados)
 
 ## Desafio 
 
-2. [Desafio Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Desafio)
+2. [Desafio Sprint 8](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Desafio)
 
 ## Evidências
 
-3. [Evidências Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Evid%C3%AAncias)
+3. [Evidências Sprint 8](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Evid%C3%AAncias)
 
 ## Exercicíos
 
-4. [Desafio Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Exerc%C3%ADcios)
+4. [Desafio Sprint 8](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8/Exerc%C3%ADcios)
 
