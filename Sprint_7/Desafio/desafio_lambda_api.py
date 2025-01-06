@@ -20,6 +20,7 @@ discover = Discover()
 
 NOME_BUCKET = "anas-data-lake"
 DATA_ATUAL = datetime.now().strftime("%Y/%m/%d")  
+RAW_ZONE = "Raw"
 ORIGEM = "TMDB"
 FORMATO = "JSON"
 
@@ -82,15 +83,15 @@ def processar_series_por_genero():
     
     if dados:
         dados_ordenados_votos = sorted(dados, key=lambda x: x['Número de votações realizadas'], reverse=True)
-        caminho = f"{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/ordenado_numero_votos.json"
+        caminho = f"{RAW_ZONE}/{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/ordenado_numero_votos.json"
         salvar_no_bucket(dados_ordenados_votos, caminho)
 
         dados_ordenados_media = sorted(dados, key=lambda x: x['Média de Votação (0-10)'], reverse=True)
-        caminho = f"{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/ordenado_media_votos.json"
+        caminho = f"{RAW_ZONE}/{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/ordenado_media_votos.json"
         salvar_no_bucket(dados_ordenados_media, caminho)
 
         dados_ordenados_popularidade = sorted(dados, key=lambda x: x['Popularidade'], reverse=True)
-        caminho = f"{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/ordenado_popularidade.json"
+        caminho = f"{RAW_ZONE}/{ORIGEM}/{FORMATO}/Series/{DATA_ATUAL}/ordenado_popularidade.json"
         salvar_no_bucket(dados_ordenados_popularidade, caminho)
 
 processar_series_por_genero()
