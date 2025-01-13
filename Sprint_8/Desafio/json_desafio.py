@@ -39,7 +39,7 @@ df_transformado = df_transformado.withColumn(
 )
 
 #voltando a dynamic_frame
-dynamic_frame_transformado = DynamicFrame.fromDF(df_transformado, glueContext, "dynamic_frame_modificado")
+dynamic_frame_transformado = DynamicFrame.fromDF(df_transformado, glueContext, "dynamic_frame_transformado")
 
 #gravando no caminho em parquet
 caminho_trusted = f"s3://{NOME_BUCKET}/{ZONE}/{ORIGEM}/{FORMATO}/Series/2025/01/08/"
