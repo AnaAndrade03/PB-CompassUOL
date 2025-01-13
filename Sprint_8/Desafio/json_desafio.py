@@ -38,9 +38,6 @@ df_transformado = df_transformado.withColumn(
     F.regexp_replace("Provedores de Streaming", r'\\"', '"')
 )
 
-#apenas 1 parquet
-df_transformado = df_transformado.coalesce(1)
-
 #voltando a dynamic_frame
 dynamic_frame_transformado = DynamicFrame.fromDF(df_transformado, glueContext, "dynamic_frame_modificado")
 

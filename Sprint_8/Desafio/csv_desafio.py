@@ -44,20 +44,22 @@ df_transformado = df_transformado.drop(*remocao_colunas)
 
 #convertendo datatypes para consultar no lambda depois 
 df_transformado = df_transformado.withColumn("notaMedia", col("notaMedia").cast(FloatType()))
-df_transformado = df_transformado.withColumn("anoLancamento", to_date(col("anoLancamento").cast("string"), "yyyy"))
-df_transformado = df_transformado.withColumn("numeroDeVotos", col("numeroDeVotos").cast(IntegerType()))
-df_transformado = df_transformado.withColumn("tempoEmMinutos", col("tempoEmMinutos").cast(IntegerType()))
+df_transformado = df_transformado.withColumn("numeroVotos", col("numeroVotos").cast(IntegerType()))
+df_transformado = df_transformado.withColumn("tempoMinutos", col("tempoMinutos").cast(IntegerType()))
 
 #filtrando séries a partir de 2010
 df_transformado = df_transformado.filter(col("anoLancamento") >= 2010)
 
-#filtrando series que tenha algum desses generos na descrição (algumas são misturadas)
+#filtrando series que tenha algum desses generos na descrição
 df_transformado = df_transformado.filter(
     lower(col("genero")).contains("fantasy") | lower(col("genero")).contains("sci-fi")
 )
 
 #dropando repetições
 df_transformado= df_transformado.dropDuplicates()
+
+#apenas 1 parquet
+df_transformado = df_transformado.coalesce(1)
 
 #voltando a dynamic_frame
 dynamic_frame_transformado = DynamicFrame.fromDF(df_transformado, glueContext, "dynamic_frame_transformado")
