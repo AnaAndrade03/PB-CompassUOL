@@ -1,62 +1,75 @@
-### Desafio Final: Entrega 3.
+### Desafio Final: Entrega 4.
 
 ### 1. Primeira etapa.
-#### (Criando camada do tmdb para uso no lambda.)
-- *Arquivo Dockerfile*
-- *Criação da imagem*
-  
+#### (Criando e configurando o primeiro job para processar o arquivo CSV)
+
+- *Processei apenas o arquivo sobre séries porque não irei usar o arquivo sobre filmes na minha análise.*
+
 ![evidenciauno](../Evidências/Evidências_Desafio/01.png)
-
-- *Criação do container, pastas e instalação da api no pacote que será transformado em camada*
-
 ![evidenciauno](../Evidências/Evidências_Desafio/02.png)
+
+- *definindo variável de ambiente para mehor visualização no código*
+
 ![evidenciauno](../Evidências/Evidências_Desafio/03.png)
 
-- *Zipando a pasta e fazendo uma copia para o path definido*
+### 1.1 código que processa o arquivo CSV e faz algumas alterações no mesmo.
+
+- *deleção de colunas sobre atores que não serão usadas*
+- *conversão de datatype para melhor manipulação futuramente*
+- *filtragem de registros a partir de 2010*
+- *filtragem de séries que continham pelo menos um dos gêneros (Sci-Fi ou Fantasia)*
+- *deleção de linhas repetidas*
 
 ![evidenciauno](../Evidências/Evidências_Desafio/04.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/05.png)
-
-### 2. Segunda etapa.
-#### (Subindo apasta zipada para um bucket no S3.)
-![evidenciauno](../Evidências/Evidências_Desafio/07.png)
-
-- *Criação da função-tmdb*
-
 ![evidenciauno](../Evidências/Evidências_Desafio/06.png)
 
-- *Criação da camada*
-- *Adicionando camada*
+### 2. Segunda etapa.
+#### (Criando e configurando o segundo job para processar os arquivos JSON.)
 
+![evidenciauno](../Evidências/Evidências_Desafio/07.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/08.png)
 
-### 3. Terceira etapa.
-#### (Definindo variável de ambiente para melhor prática no código)
+- *definindo variável de ambiente para mehor visualização no código*
+
+![evidenciauno](../Evidências/Evidências_Desafio/09.png)
+
+### 2.2 código que processa os arquivos JSON (três top 10, ordenados cada um por uma variável).
+
+- *A alteração nos arquivos foi a coluna "Provedores de Streaming", deixando-as com uma melhor visualização*
 
 ![evidenciauno](../Evidências/Evidências_Desafio/10.png)
-
-### 4. Quarta etapa.
-#### (Elaboração do código para coleta de dados da API e produção dos arquivos json a serem enviados para o bucket anas-data-lake)
-
-- *Prints no vscode local para melhor visualização*
-
 ![evidenciauno](../Evidências/Evidências_Desafio/11.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/12.png)
+
+### 3. Terceira etapa.
+#### (Rodandos os jobs)
+
 ![evidenciauno](../Evidências/Evidências_Desafio/13.png)
+![evidenciauno](../Evidências/Evidências_Desafio/14.png)
+
+### 4. Quarta etapa.
+#### (Resultados: Caminhos no padrão determinado do bucket)
+
+![evidenciauno](../Evidências/Evidências_Desafio/15.png)
+![evidenciauno](../Evidências/Evidências_Desafio/16.png)
 
 ### 5. Resultados. 
-#### (Código rodado no lambda com sucesso)
-![evidenciauno](../Evidências/Evidências_Desafio/14.png)
-![evidenciauno](../Evidências/Evidências_Desafio/15.png)
+#### (Criando database e crawler para checagem de resultados no athena)
 
-- (Caminhos no bucket e diretórios corretos como solicitado)
-
-![evidenciauno](../Evidências/Evidências_Desafio/16.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/17.png)
-![evidenciauno](../Evidências/Evidências_Desafio/18.png)
 
 ### 6. Resultados.
-#### (Arquivos gerados pelo código depois de feito download na maquina local)
+#### (Tabelas criadas depois do crawler rodado)
+
+![evidenciauno](../Evidências/Evidências_Desafio/18.png)
+
+### 7. Resultados.
+#### (Tabela do CSV)
 ![evidenciauno](../Evidências/Evidências_Desafio/19.png)
 ![evidenciauno](../Evidências/Evidências_Desafio/20.png)
+
+### 7. Resultados.
+#### (Tabela dos JSONS)
 ![evidenciauno](../Evidências/Evidências_Desafio/21.png)
+![evidenciauno](../Evidências/Evidências_Desafio/22.png)
