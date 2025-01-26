@@ -1,75 +1,111 @@
 ### Desafio Final: Entrega 4.
 
 ### 1. Primeira etapa.
-#### (Criando e configurando o primeiro job para processar o arquivo CSV)
+#### (Criando modelagem multidimensional no dbeaver para visualização do diagrama)
 
-- *Processei apenas o arquivo sobre séries porque não irei usar o arquivo sobre filmes na minha análise.*
+1. Preferi começar por aqui para conseguir visualizar o diagrama e conseguir pensar melhor em como queria minhas tabelas.
 
-![evidenciauno](../Evidências/Evidências_Desafio/01.png)
-![evidenciauno](../Evidências/Evidências_Desafio/02.png)
+- *Tabelas sem modelagem.*
 
-- *definindo variável de ambiente para mehor visualização no código*
+![evidenciauno](../Evidências/02.png)
 
-![evidenciauno](../Evidências/Evidências_Desafio/03.png)
+- *Criando tabelas.*
+  
+![evidenciauno](../Evidências/01.png)
 
-### 1.1 código que processa o arquivo CSV e faz algumas alterações no mesmo.
+- *Diagrama representando a modelagem multidimensional.*
 
-- *deleção de colunas sobre atores que não serão usadas*
-- *conversão de datatype para melhor manipulação futuramente*
-- *filtragem de registros a partir de 2010*
-- *filtragem de séries que continham pelo menos um dos gêneros (Sci-Fi ou Fantasia)*
-- *deleção de linhas repetidas*
+![evidenciauno](../Evidências/03.png)
 
-![evidenciauno](../Evidências/Evidências_Desafio/04.png)
-![evidenciauno](../Evidências/Evidências_Desafio/05.png)
-![evidenciauno](../Evidências/Evidências_Desafio/06.png)
+- *Tabelas.*
+  
+![evidenciauno](../Evidências/04.png)
 
 ### 2. Segunda etapa.
-#### (Criando e configurando o segundo job para processar os arquivos JSON.)
+#### (Criação do job Glue)
 
-![evidenciauno](../Evidências/Evidências_Desafio/07.png)
-![evidenciauno](../Evidências/Evidências_Desafio/08.png)
+- *Realiza o processamento e transformação de dados para montar uma modelagem multidimensional.*
+  
+1. Faço algumas inicializações.
+     
+2. Defino variáveis globais.
+     
+3. Inicializo leitura dos arquivos que tiveram seus caminhos definidos como variáveis de ambiente.
+     
+![evidenciauno](../Evidências/05.png)
 
-- *definindo variável de ambiente para mehor visualização no código*
+### 2.2
 
-![evidenciauno](../Evidências/Evidências_Desafio/09.png)
+4. Faço a seleção de colunas do json e csv, renomeio colunas para melhor visualização.
+  
+5. Crio tabela diemnsão fazendo um join entre os dois documentos baseando-se na correspondencia entre as colunas "titulo" e "titulo_original"
+ 
+6. A coluna "streaming" é "explodida" já que é uma lista, e caqda série pode contar com mais de um provedor de streaming.
 
-### 2.2 código que processa os arquivos JSON (três top 10, ordenados cada um por uma variável).
+    - *Preferi usar essa saída ao invés de criar uma tabela auxiliar, como são poucos dados não irá influir na hora de fazer as views*
+  
+7. Crio a tabela fato fazendo um select em quais colunas quero adicionar.
 
-- *A alteração nos arquivos foi a coluna "Provedores de Streaming", deixando-as com uma melhor visualização*
+![evidenciauno](../Evidências/06.png)
 
-![evidenciauno](../Evidências/Evidências_Desafio/10.png)
-![evidenciauno](../Evidências/Evidências_Desafio/11.png)
-![evidenciauno](../Evidências/Evidências_Desafio/12.png)
+### 2.3
+
+8. Salvo minhas tabelas no caminho definido no S3.
+
+![evidenciauno](../Evidências/07.png)
+
+### 2.4 Visualização na plataforma da AWS e resultados.
+
+- *Job e suas configurações pedidas.*
+
+![evidenciauno](../Evidências/08.png)
+![evidenciauno](../Evidências/09.png)
+
+- *Definindo variáveis de ambiente.*
+
+![evidenciauno](../Evidências/10.png)
+
+- *Job rodado com sucesso*
+
+![evidenciauno](../Evidências/11.png)
+
+- *Camada Refined no S3.*
+
+![evidenciauno](../Evidências/12.png)
+![evidenciauno](../Evidências/13.png)
+
+- *Caminhos dos parquets criados*
+
+![evidenciauno](../Evidências/14.png)
+![evidenciauno](../Evidências/15.png)
+     
 
 ### 3. Terceira etapa.
-#### (Rodandos os jobs)
+#### (Criando database e crawler)
 
-![evidenciauno](../Evidências/Evidências_Desafio/13.png)
-![evidenciauno](../Evidências/Evidências_Desafio/14.png)
+- *Database seriesrefined*
+
+![evidenciauno](../Evidências/16.png)
+
+- *Crawler seriesrefined rodado com criação de duas tabelas com sucesso!*
+
+![evidenciauno](../Evidências/17.png)
+
+- *Visualização das tabelas criadas com o crawler.*
+
+![evidenciauno](../Evidências/18.png)
 
 ### 4. Quarta etapa.
-#### (Resultados: Caminhos no padrão determinado do bucket)
+#### (Visualização das tabelas criadas no Athena.)
 
-![evidenciauno](../Evidências/Evidências_Desafio/15.png)
-![evidenciauno](../Evidências/Evidências_Desafio/16.png)
+![evidenciauno](../Evidências/19.png)
 
-### 5. Resultados. 
-#### (Criando database e crawler para checagem de resultados no athena)
+- *dim_series*
 
-![evidenciauno](../Evidências/Evidências_Desafio/17.png)
+![evidenciauno](../Evidências/20.png)
+![evidenciauno](../Evidências/21.png)
 
-### 6. Resultados.
-#### (Tabelas criadas depois do crawler rodado)
+- *fato_series*
 
-![evidenciauno](../Evidências/Evidências_Desafio/18.png)
-
-### 7. Resultados.
-#### (Tabela do CSV)
-![evidenciauno](../Evidências/Evidências_Desafio/19.png)
-![evidenciauno](../Evidências/Evidências_Desafio/20.png)
-
-### 7. Resultados.
-#### (Tabela dos JSONS)
-![evidenciauno](../Evidências/Evidências_Desafio/21.png)
-![evidenciauno](../Evidências/Evidências_Desafio/22.png)
+![evidenciauno](../Evidências/22.png)
+![evidenciauno](../Evidências/23.png)
