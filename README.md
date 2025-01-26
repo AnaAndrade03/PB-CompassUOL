@@ -22,3 +22,4 @@
   6. [Sprint 6](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_6)
   7. [Sprint 7](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_7)
   8. [Sprint 8](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_8)
+  9. [Sprint 9](https://github.com/AnaAndrade03/PB-Compass/tree/main/Sprint_9)
