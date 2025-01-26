@@ -38,9 +38,9 @@
 
 4. Faço a seleção de colunas do json e csv, renomeio colunas para melhor visualização.
   
-5. Crio tabela diemnsão fazendo um join entre os dois documentos baseando-se na correspondencia entre as colunas "titulo" e "titulo_original"
+5. Crio tabela diemensão fazendo um join entre os dois documentos baseando-se na correspondencia entre as colunas "titulo" e "titulo_original"
  
-6. A coluna "streaming" é "explodida" já que é uma lista, e caqda série pode contar com mais de um provedor de streaming.
+6. A coluna "streaming" é "explodida" já que é uma lista, e cada série pode contar com mais de um provedor de streaming.
 
     - *Preferi usar essa saída ao invés de criar uma tabela auxiliar, como são poucos dados não irá influir na hora de fazer as views*
   
