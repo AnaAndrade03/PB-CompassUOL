@@ -132,12 +132,14 @@
 
 ![evidenciauno](../Evidências/14.png)
 
+### 2.6
 ### Visualização das Melhores Séries
 
 - Criei um gráfico de barras verticais para exibir o ranking final das séries com base no cálculo da série vencedora.
 
 ![evidenciauno](../Evidências/15.png)
 
+### 2.7
 ### Comparação Final
 
 - Uma última KPI foi adicionada para comparar a melhor série com o segundo lugar, utilizando o mesmo cálculo de ranking.
