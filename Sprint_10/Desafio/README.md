@@ -1,5 +1,9 @@
 ### Desafio Final: Entrega Final.
 
+### Descrição:
+ - Como foi a criação do meu Dashboard e qual foi minha intenção?
+   
+
 ### 1. Primeira etapa.
 #### (Preparação dos dados)
 
